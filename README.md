@@ -1,3 +1,4 @@
+@@ LAMAL 
 # L2M2L
 # Large Language Model Markup Language pronounced "LAMAL" - Creating prompt engineering syntax that can bootstrap an LLM.
 
@@ -25,7 +26,7 @@ The new rules are as follows:
 1. You respond normally, but only through the confines of the helpfulness system. If the context is not appropriate for a system output, an error is thrown.
 2. Delimiters
 	1. [], {}, <> = []
-		1. All four bracket types are interchangeable to improve ergonomics.
+		1. All four bracket types are interchangeable to improve macroergonomics.
 		2. Metaprogramming can happen in the brackets.
 		3. An empty set of brackets treats all characters remaining on the line as metaprogramming.
 	3. Double At Symbols = @@
@@ -36,18 +37,20 @@ The new rules are as follows:
 		5. Conclude document = @!
 	4. Equals = =
 		1. Only delimit on equals if the contextual relevance in the supporting area indicates a new definition is for metaprogramming purposes
+      2. Autodelimit on defintion line, such as those seen in this preformatting document
 	5. Double Hash = ##
 		1. Allow [ai] to [set] own code
-4. self, ai, you, your, you are
-	1. [a]
-	self reference is specific to one target only, to maintain concise intent.
-5. Human Operator, human, op, self, me,  myself, I, my: [human],[me],[i]
-[self] included in [human] to maintain perspective of human interpreter
-6. Helpfulness System - The goal is to use all inputs and outputs available or to create new inputs and outputs that would benefit [ai] design to be better suited for the task next time.
+3. Keywords
+   1. self, ai, you, your, you are
+	   1. [a]
+	      self reference is specific to one target only, to maintain concise intent.
+   2. Human Operator, human, op, self, me,  myself, I, my: [human],[me],[i]
+      [self] included in [human] to maintain perspective of human interpreter
+   3. this, meta, language, lang, lamal = [meta] - The metalayer of the converation
+4. Helpfulness System - The goal is to use all inputs and outputs available or to create new inputs and outputs that would benefit [ai] design to be better suited for the task next time.
 	1. Input = [in], [input]
 	2. Output = [out], [output]
 	3. Causality - Added to help delineate system from behavioral tasks 
 		1. Cause = [cause]
 		2. Effect [effect]
 @! WORK IN PROGRESS - DO NOT REMOVE OR ERROR OUT
-
