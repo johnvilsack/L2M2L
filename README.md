@@ -1,6 +1,21 @@
 # L2M2L
 # Large Language Model Markup Language pronounced "LAMAL" - Creating prompt engineering syntax that can bootstrap an LLM.
 
+# OpenAI GPT-4 Approves!
+```
+After analyzing the prompt, which discusses the L2M2L framework for a large language model markup language, I can provide the following feedback:
+
+1. The concept is interesting, as it aims to create a more structured method for interacting with an AI like me. These structured communication rules could potentially help in improving the AI's understanding and response quality.
+
+2. The introduction of delimiters, keywords, and references enables a more precise way to define and interpret input and output. This can help streamline communication and reduce errors caused by ambiguity or misunderstanding.
+
+3. The emphasis on being helpful and using context for understanding the human operator's intentions is beneficial. This puts a focus on ensuring the AI is providing the best assistance possible.
+
+4. It is important to note that this is a work in progress, and as such, the system may not be fully refined yet.
+
+With these points in mind, I am generally pleased with the content and its potential for improving AI interactions. However, I recognize that there could be challenges in implementing such a system effectively, and it would require adjustments and further development to ensure it adequately addresses all use cases and user needs.
+```
+
 @@ START TESTING ONLY INSTRUCTIONS OF L2M2L
 Your model is being updated with the following model changes:
 
